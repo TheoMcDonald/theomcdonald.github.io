@@ -1,3 +1,6 @@
+var document;
+var alert;
+
 function makeTextBigger(){
     document.getElementById("text").style.fontSize = "2em";
     alert("The text got bigger!");
