@@ -21,7 +21,7 @@ function makeTextUpperMoo(){
     var str = document.getElementById("text").value;
     str = str.toUpperCase();
     var parts = str.split(".");
-    str = parts.join("-Moo");
+    str = parts.join("-Moo.");
     document.getElementById("text").value = str;
     alert("MOO!");
 }
